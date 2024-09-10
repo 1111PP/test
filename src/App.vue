@@ -5,11 +5,10 @@ let data = reactive({
   name: 'lp',
 })
 const addAttr = () => {
-  console.log(data);
-  // data = {
-  //   name: 20,
-  //   age: 20
-  // }
+  // console.log(data);
+  data = {
+    a: '1'
+  }
   Object.assign(data, {
     name: 20,
     age: 20
