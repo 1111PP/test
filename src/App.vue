@@ -7,7 +7,7 @@ let data = reactive({
 const addAttr = () => {
   // console.log(data);
   data = {
-    a: '1'
+    newBranch: 'newBranch'
   }
   Object.assign(data, {
     name: 20,
