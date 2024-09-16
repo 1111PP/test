@@ -7,11 +7,11 @@ import '@/styles/index.less';
 function App() {
     // 通过useRoutes配置实现路由管理
     const element = useRoutes(routes);
-
+    const newBranch2 = () => {};
     return (
         <div className='app'>
             <Tab />
-            <h1>App</h1>
+            <div onClick={newBranch2}>Click Me</div>
             {element}
         </div>
     );
