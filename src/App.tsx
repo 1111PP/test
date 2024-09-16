@@ -14,9 +14,6 @@ function App() {
         <div className='app'>
             <Tab />
             <div onClick={newBranch1}>Click Me</div>
-            <div onClick={newBranch1}>Click Me</div>
-            <div onClick={newBranch1}>Click Me</div>
-            <div onClick={newBranch1}>Click Me</div>
             <div onClick={newBranch2}>Click Me</div>
             {element}
         </div>
