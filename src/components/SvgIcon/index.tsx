@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import './index.less';
+// import './index.less';
 
 interface SvgIconProps {
     svgName: string; // svg名字
